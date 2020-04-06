@@ -1,0 +1,85 @@
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.body{
+    font-weight: 400;
+    color: rgba(0, 0, 0, .9);
+    line-height: 1.5;
+
+}
+
+img, .profileImageContainer3, .profileImageContainer1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.profileImageContainer4{
+    padding-bottom: 24px !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+
+}
+
+
+.profileImageContainer3{
+    margin-top: -104px;
+    text-align: left !important;
+    font-size: 0;
+    background: transparent;
+}
+
+
+.profileImageContainer2{
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    border: 0 solid transparent;
+    border-radius: 49.9%;
+    background-color: rgba(243, 246, 248, .94);
+    box-shadow: inset 0 1.5px 3px 0 rgba(0,0,0,.15),0 1.5px 3px 0 rgba(0,0,0,.15);
+    margin: auto;
+    position: relative;
+    margin-left: 0 !important;
+    padding: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+
+
+.profileImageContainer1{
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 100%;
+    background: transparent;
+    text-align: left !important;
+
+}
+
+.profileImage{
+    line-height: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    background: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: 0;
+    line-height: 0;
+    
+}
