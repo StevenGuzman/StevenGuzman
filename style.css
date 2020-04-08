@@ -1,6 +1,7 @@
 
 *, ::after, ::before{
     box-sizing: inherit;
+
 }
 
 .body{
@@ -10,23 +11,33 @@
 
 }
 
-img, .profileImageContainer3, .profileImageContainer1{
-    margin: 0;
-    padding: 0;
-    border: 0;
+.topProfile{
+    margin-left: 80px;
+    border: solid 1px;
+    width: 80%;
 }
 
 
+.topBackgroundContainer{
+    height: 100px;
+}
+
+.topBackground{
+    width: 100%;
+    height: 300px;
+
+}
+
 .profileImageContainer4{
-    padding-bottom: 24px !important;
-    padding-left: 24px !important;
-    padding-right: 24px !important;
+    padding-bottom: 40px !important;
+    padding-left: 240x !important;
+    padding-right: 240px !important;
+    margin-left: 70px;
 
 }
 
 
 .profileImageContainer3{
-    margin-top: -104px;
     text-align: left !important;
     font-size: 0;
     background: transparent;
@@ -34,8 +45,8 @@ img, .profileImageContainer3, .profileImageContainer1{
 
 
 .profileImageContainer2{
-    width: 400px;
-    height: 400px;
+    width: 316px;
+    height: 316px;
     box-sizing: border-box;
     background-clip: content-box;
     border: 0 solid transparent;
@@ -47,7 +58,7 @@ img, .profileImageContainer3, .profileImageContainer1{
     margin-left: 0 !important;
     padding: 0;
     font-size: 100%;
-    background: transparent;
+    background: #eee;
 }
 
 
@@ -68,18 +79,39 @@ img, .profileImageContainer3, .profileImageContainer1{
 
 .profileImage{
     line-height: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
-
-img{
+    margin: 8px;
     background: none;
     border: none;
-    width: 20px;
-    height: 20px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     outline: 0;
     line-height: 0;
+}
+
+.profileMain1{
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    position: relative;
+    font-size: 35px;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 15px;
     
+}
+
+.profileMain2{
+    text-align: left;
+    margin-left: 70px !important;
+    margin-right: 200px !important;
+    margin-top: 15px;
+    position: relative;
+    font-size: 25px;
+    display: inline-block;
+    
+}
+
+.profileMain2 p{
+    margin: 5px;
 }
