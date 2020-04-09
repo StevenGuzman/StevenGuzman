@@ -29,7 +29,7 @@
 }
 
 .profileImageContainer4{
-    padding-bottom: 40px !important;
+    padding-bottom: 10px !important;
     padding-left: 240x !important;
     padding-right: 240px !important;
     margin-left: 70px;
@@ -104,7 +104,7 @@
 .profileMain2{
     text-align: left;
     margin-left: 70px !important;
-    margin-right: 200px !important;
+    margin-right: 50px !important;
     margin-top: 15px;
     position: relative;
     font-size: 25px;
@@ -114,4 +114,35 @@
 
 .profileMain2 p{
     margin: 5px;
+}
+
+
+.profileMain3{
+    text-align: left;
+    margin-left: 70px !important;
+    margin-right: 50px !important;
+    margin-top: 15px;
+    position: relative;
+    font-size: 25px;
+    display: inline-block;
+    
+}
+
+.profileMain3 p{
+    margin: 5px;
+}
+
+.profileMain3 img{
+    width: 25px;
+    height: 25px;
+}
+
+.profileMain4{
+    width: 100%;
+    text-align: center;
+    margin: none;
+    position: relative;
+    font-size: 25px;
+    display: inline-block;
+    
 }
