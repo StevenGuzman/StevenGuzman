@@ -4,17 +4,21 @@
 
 }
 
-.body{
+body{
     font-weight: 400;
     color: rgba(0, 0, 0, .9);
     line-height: 1.5;
-
+    background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .topProfile{
     margin-left: 80px;
     border: solid 1px;
     width: 80%;
+    background-color:rgba(255, 255, 255, .65);
+
 }
 
 
@@ -145,4 +149,91 @@
     font-size: 25px;
     display: inline-block;
     
+}
+
+
+.middleProfile{
+
+    margin-top: 40px;
+    margin-left: 80px;
+
+    width: 80%;
+    background-color: rgba(255, 255, 255, .65);
+
+}
+
+.about{
+    margin-left: 70px;
+    margin-right: 70px;
+    display: inline-block;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.skillsContainer{
+    border: solid 1px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 350px;
+    margin-bottom: 20px;
+    line-height: 1;
+
+
+}
+
+.skills{
+    position: relative;
+    margin-left: 10px;    
+    display: inline-block;
+    text-align: left;
+
+}
+
+.Stars{
+    background-color: mediumblue;
+    color: mediumblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 250px;
+}
+
+.strengthsContainer{
+    border: solid 1px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 350px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.strengths{
+    position: relative;
+    margin-left: 70px;    
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.softwareContainer{
+    border: solid 1px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 350px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.software{
+    position: relative;
+    margin-left: 10px;    
+    display: inline-block;
+    text-align: left;
+}
+
+.experience{
+    position: relative;
+    width: 600px;
+    float: right;
+    text-align: center;
 }
